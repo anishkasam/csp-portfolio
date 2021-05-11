@@ -83,7 +83,7 @@ body {
 
 .about-me-content {
   background: white;
-  height: 90vh;
+  min-height: 90vh;
   margin-top: 10vh;
 }
 
@@ -113,8 +113,14 @@ body {
 }
 
 .propic {
-  width: 500px;
-  height: 650x;
+  width: 100%;
+  height: 100%;
+  display: inline;
+  float: left;
+}
+
+.image {
+  margin-right: 5%;
 }
 
 .container {
@@ -126,13 +132,78 @@ body {
   justify-content: center;
 }
 
-.image {
-  display: inline;
-  float: left;
-  margin-right: 5%;
-}
-
 .about-me-text {
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+iframe {
+  width: 100%;
+  height: 120vh;
+}
+
+.resume-content {
+  background: white;
+  min-height: 130vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.projects-content {
+  background: white;
+  min-height: 100vh;
+  margin-top: 10vh;
+  justify-content: left;
+  margin-bottom: 10vh;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+.projects-content p {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.project-image {
+  width: 70%;
+  height: 100%;
+  margin-top: 5vh;
+}
+
+.margin-top {
+  margin-top: 10vh;
+}
+
+.projects-content a {
+  color: #4a69bd;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.contact-content {
+  background: white;
+  min-height: 30vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  justify-content: left;
+}
+
+.contact-content img {
+  height: 25px; 
+  width: 25px;
+}
+
+.img-text {
+  margin-left: 15px;
+}
+
+.img-text-link {
+  margin-left: 15px;
+  color: black;
+  text-decoration: underline;
 }
