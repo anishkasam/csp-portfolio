@@ -207,3 +207,12 @@ h3 {
   color: black;
   text-decoration: underline;
 }
+
+.resume-preview {
+  width: 100%;
+}
+
+.resume-link a {
+  text-decoration: underline;
+  color: black;
+}
