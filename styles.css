@@ -36,6 +36,7 @@ body {
   font-family: Montserrat;
   font-size: calc(15px + 0.6vw);
   text-decoration: none;
+  color: white;
 }
 
 #menu a:hover {
