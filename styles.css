@@ -142,12 +142,11 @@ body {
 
 iframe {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 }
 
 .resume-content {
   background: white;
-  min-height: 130vh;
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
