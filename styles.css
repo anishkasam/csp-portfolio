@@ -80,6 +80,7 @@ body {
   background: white;
   min-height: 90vh;
   margin-top: 10vh;
+  padding-bottom: 5vh;
 }
 
 .header {
